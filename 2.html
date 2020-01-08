@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Num</title>
+   
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="./css/2.css" type="text/css" rel="stylesheet">
+    <link href="slick-1.8.1/slick/slick.css" type="text/css" rel="stylesheet">
+    <link href="slick-1.8.1/slick/slick-theme.css" type="text/css" rel="stylesheet">
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCNGaOOLqRce39-8gdQTcifKj3VepmW6Qg",
+    authDomain: "final-12e95.firebaseapp.com",
+    databaseURL: "https://final-12e95.firebaseio.com",
+    projectId: "final-12e95",
+    storageBucket: "final-12e95.appspot.com",
+    messagingSenderId: "408463186181",
+    appId: "1:408463186181:web:0de83dc1b37b0a5470bf6c",
+    measurementId: "G-VS23FCQBH3"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</script>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+   <script src="slick-1.8.1/slick/slick.min.js"></script>
+  
+
+
+    <script src="./js/action.js"></script>
+    
+</head>
+
+<body>
+   
+        <div class="header">
+
+            <div class="logopic" onclick="window.location='./index.html'">
+                <img src="img/logo 1.png" id="entrybt" type="button">
+            </div>
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                  <a href="Untitled-1.html"><li>NIKE</li></a>
+                  <a href="#"><li>ADIDAS</li></a>
+                  <a href="#"><li>PUMA</li></a>
+                  <a href="#"><li>NEW BALANCE</li></a>
+                  <a href="#" ><li>REEBOK</li></a>
+                </ul>
+              </div>
+            <div class="list">
+                <ol>
+                    <p class="logoline"></p>
+                    <li class="nike" id="l"><a href="./Untitled-1.html">NIKE</a></li>
+                    <p class="line"></p>
+                    <li class="adidas" id="l"><a href="https://www.ntue.edu.tw/">ADIDAS</a></li>
+                    <p class="line"></p>
+                    <li class="puma" id="l"><a href="https://www.ntue.edu.tw/">PUMA</a></li>
+                    <p class="line"></p>
+                    <li class="newbalance" id="l"><a href="https://www.ntue.edu.tw/">NEW BALANCE</a></li>
+                    <p class="line"></p>
+                    <li class="reebok" id="l"><a href="https://www.ntue.edu.tw/">REEBOK</li></a>
+                    <p class="logoline2"></p>
+                    <img class="icon" id="search" src="./img/search.png">
+                    <p class="line" id="lineb"></p>
+                   
+                    <a href="./2.html"><img class="icon" id="shoppingbag" src="img/shopping-bag.png"></a>
+                </ol>
+                
+                                
+                                
+                                
+                               
+                                
+                            
+                        </div>
+                      </div>
+                      
+                </div>
+            </div>
+            
+        </div>
+       
+        <div class="footerbox3">
+                <p class="seperationline"></p>
+            </div>
+        <div class="box2-1">
+         
+            <p class="shoppingcar">購物籃</p>
+            <p class="shoppingcontent">你的購物籃中沒有任何品項。</p>
+            <div class="caculator">
+                <p class="item">品項</p>
+                <p class="caline"></p>
+                <p class="cost">價格</p>
+                <p class="seperationline" id="caline"></p>
+                <p class="noitem">尚無商品</p>
+                <p class="seperationline" id="caline1"></p>
+                <p class="total">總金額</p>
+                <p class="zero">$0</p>
+            </div>
+            <div class="totalphone">
+                <p class="toph">總金額</p>
+
+                <p class="itemcost">項目金額</p>
+                <p class="zero1">0 NT</p>
+                <p class="discount">折扣</p>
+                <p class="zero2">0 NT</p>
+                <p class="fee">運費</p>
+                <p class="zero3">0 NT</p>
+                <p class="finaltotal">Total</p>
+                <p class="finalzero">0 NT</p>
+                <input class="totalbt" type="button" value="前往結帳">
+            </div>
+            <p class="favorite">最愛</p>
+            <p class="favoritecontent">你的最愛中沒有任何品項。</p>
+            <p class="seperationline2"></p>
+            <p class="maybeintrest">你可能會感興趣...</p>
+        </div>
+      
+          </section>
+          <div class="itemslick">
+            <div class="slickpic"><img src="img/2/71A55A85A91490A516109B4AE1C0D4EA (1).png"><p class="itemsslick1">Ralph Sampson Lo<br>
+                &nbsp;&nbsp;男女皆宜休閒鞋<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$ 3590</p></div>
+            <div class="slickpic"><img src="img/2/timthumb (2).png"><p class="itemsslick2">CM997HBH<br>
+                經典復刻鞋<br>
+                &nbsp;&nbsp;&nbsp;$ 2,950</p></div>
+            <div class="slickpic"><img src="img/2/timthumb (1).png"><p class="itemsslick3">CM878WYW<br>
+                經典復刻鞋<br>
+                &nbsp;&nbsp;&nbsp;$ 3,650</p></div>
+            <div class="slickpic"><img src="img/2/timthumb.png"><p class="itemsslick4">CM997HCT<br>
+                經典復刻鞋<br>
+                &nbsp;&nbsp;&nbsp;$ 2,950</div>
+            <div class="slickpic"><img class="lowerpic" src="img/2/6 (1).png"><p class="itemsslick5">Sole Fury 00<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;休閒鞋<br>
+                &nbsp;&nbsp;&nbsp;$ 3,250</p></div>
+            <div class="slickpic"><img src="img/2/MSXRCSBK_1.png"><p class="itemsslick6">MSXRCSBK<br>
+                運動時尚鞋<br>
+                &nbsp;&nbsp; $ 3,250</p></div>
+            <div class="slickpic"><img src="img/2/5C0E163EFB041FAA39FFD233A31ECB60 (1).png"><p class="itemsslick7">Storm Les Benjamins<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;男女皆宜休閒鞋<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$ 5,900</p></div>
+            <div class="slickpic"><img src="img/2/imageQC28793895_2000_1 (1).png"><p class="itemsslick8">ULTRABOOST 19<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;跑鞋<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ 5,990</p></div>
+          </div>
+               <footer>
+                   <div class="ftbox">
+                       <p class="ftword1">活動資訊</p>
+                       <p class="ftword2">尋找商店</p>
+                       <p class="ftline1"></p>
+                       <p class="ftword3">關於我們</p>
+                       <p class="ftline2"></p>
+                       <p class="ftword4">常用條款</p>
+                       <p class="ftword5">銷售條款</p>
+                       <p class="ftword6">隱私權政策</p>
+                        <p class="adress">地址 : 106台北市大安區和平東路二段134號 </p>
+                        <p class="ftword7">© Num TW LIMITED 2019 保留所有權</p>
+                    </div>
+               </footer>
+
+
+  
+
+
+</body>
+
+</html>

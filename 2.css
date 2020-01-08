@@ -1,0 +1,1180 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    margin:0 auto;
+}
+body{
+    margin: 0 auto;
+    height:1900px;
+}
+.body{
+   position: relative;
+    height:7290px;
+    
+}
+.header{
+    position:fixed;
+    display:flex;
+    top:0px;
+    z-index:-1;
+    
+}
+
+
+.logopic{
+    width:276px;
+    height:144px;
+    margin:28px 1621px 2356px 23px;
+    padding:0;
+    z-index:2;
+    
+}
+.logopic img{
+    margin:0px;
+}
+.list{
+    
+   margin:76px 1462px 2387px 367px;
+   width:1284px;
+    height:185px;
+    padding:0% 0% 0% 0%;
+    position:fixed;
+    top:0px;
+    z-index:5;
+    
+}
+.list ol{
+   
+    display: flex;
+  list-style-type: none;
+ padding:0;
+ margin:0;
+ font-family: Sitka Subheading;
+ height:35px;
+    
+}
+.icon{
+    width:40px;
+    height:40px;
+    position: absolute;
+    top:0px;
+    left:1288px;
+    margin:0;
+}
+#shoppingbag {
+    position: absolute;
+    top:0;
+    left:1373px;
+    
+}
+
+#shopping a:hover>img{
+    transform:scale(1.1);
+}
+.logoline{
+    border:1px;
+    position:fixed;
+        width:2px;
+        height:185px;
+        background-color: #707070;
+        margin:0;
+        top:0.5px;
+        left:329.5px;
+        right:1590.5px;
+        bottom:2132.5px;
+        
+    }
+    .logoline2{
+        border:1px;
+        
+            width:2px;
+            height:185px;
+            background-color: #707070;
+           position: absolute;
+           top:-75px;;
+           left:1204px;
+           margin:0;
+            
+            
+        }
+.line{
+border:1px;
+    
+    width:2px;
+    height:39px;
+    background-color: #707070;
+    margin:0 15.5px 0 15.5px;
+    
+}
+#lineb{
+    margin:0px;
+    position: absolute;
+    left:1350px;
+}
+.nike a{
+    color:rgb(0, 0, 0);
+    width:91px;
+    text-decoration: none;
+}
+.nike a:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgb(145, 151, 151);
+}
+.adidas a{
+    color:rgb(0, 0, 0);
+    width:137px;
+    text-decoration: none;
+}
+.adidas a:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgb(145, 151, 151);
+}
+.puma a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    width:105px;
+}
+.puma a:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgb(145, 151, 151);
+}
+.newbalance a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+width:264px;
+}
+.newbalance a:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgb(145, 151, 151);;
+}
+.reebok a{
+width:147px;
+color:rgb(0, 0, 0);
+text-decoration: none;
+}
+.reebok a:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgb(145, 151, 151);
+}
+#l{
+   font-size:35px;
+   font-weight: bold;
+   color:#444444;
+   line-height: 51px;
+   letter-spacing: 50;
+   font-weight: bold;
+}
+.seperationline{
+    width:100%;
+    height:1px;
+    background-color: #D8D7D7;
+    margin-top:185px;
+}
+.box2-1{
+    margin:42px 0 0 260px;
+}
+.shoppingcar{
+    font-size:45px;
+    font-family:Microsoft JhengHei;
+    font-weight: bold;
+    color:#444444;
+    letter-spacing: 5px;
+}
+.shoppingcontent{
+    font-size:25px;
+    font-family:Microsoft JhengHei;
+    letter-spacing: 5px;
+    margin-top:6px;
+}
+.caculator{
+    width:329px;
+    height:344px;
+    background-color:black;
+    position: absolute;
+    top:214px;
+    left:1090px;
+}
+.totalphone{
+    display: none;
+}
+.item{
+    width:65px;
+    height:31px;
+    font-size:23px;
+    font-family:Microsoft JhengHei;
+    letter-spacing: 5px;
+    color:white;
+    padding:13px 0 0 10px;
+ 
+    
+}
+.caline{
+    width:1px;
+    height:53px;
+    background-color: #707070;
+    margin:-44px 0 0 247.5px;
+}
+.cost{
+    font-size:23px;
+    font-family:Microsoft JhengHei;
+    letter-spacing: 5px;
+    color:white;
+    margin:-11.95% 0 0 263px;
+}
+#caline{
+   margin-top:3%
+  
+}
+.noitem{
+    font-size:18px;
+    font-family:Microsoft JhengHei;
+    color:white;
+    margin:9.5px 0 0 13px;
+}
+#caline1{
+    margin-top:65%
+   
+ }
+.total{
+    font-size:23px;
+    font-family:Microsoft JhengHei;
+    letter-spacing: 5px;
+    color:white;
+    margin:4px 0 0 13px;
+}
+.zero{
+    font-size:23px;
+    font-family:Microsoft JhengHei;
+    letter-spacing: 5px;
+    color:white;
+    margin:-9.5% 0 0 85% ;
+}
+.favorite{
+    font-size:45px;
+    font-family:Microsoft JhengHei;
+    font-weight: bold;
+    color:#444444;
+    letter-spacing: 5px;
+    position: absolute;
+    top:576px;
+    left:260px;
+    margin:0;
+}
+.favoritecontent{
+    font-size:25px;
+    font-family:Microsoft JhengHei;
+    letter-spacing: 5px;
+    position: absolute;
+    margin:0;
+    top:642px;
+    left:260px;
+}
+.seperationline2{
+    width: 1671px;
+    height:1px;
+    background-color: #707070;
+    margin:0;
+    position: absolute;
+    top:717.5px;
+    left:124.5px;
+}
+.hamburger{
+    display:none;
+}
+#nav-icon1 {
+    width: 60px;
+    height: 45px;
+    position: relative;
+    margin: 50px auto;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+  }
+  
+  
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .slider {
+      width: 20%;
+      margin: 100px auto;
+  }
+
+  .slick-slide {
+    margin: 0px 10px;
+    
+  }
+
+  .slick-slide img {
+    width: 100%;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    color: black;
+  }
+
+
+  .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+  }
+  
+  .slick-active {
+    opacity: 1;
+  }
+
+  .slick-current {
+    opacity: 1;
+  }
+  .slickpic{
+      width:250px;
+      height:250px;
+      
+  }
+  .itemslick{
+      width:90%;
+     position: absolute;
+     top:449px;
+     left:240px;
+  }
+ .itemsslick1{
+    font-size:20px;
+    color:#707070;
+    font-family:Segoe UI;
+    margin-left:135px;
+
+ }
+ 
+ .itemsslick2{
+    font-size:20px;
+    color:#707070;
+    font-family:Segoe UI;
+    margin-left:160px;
+    
+ }
+ .itemsslick3{
+    font-size:20px;
+    color:#707070;
+    font-family:Segoe UI;
+    margin-left:160px;
+    
+ }
+ .itemsslick4{
+    font-size:20px;
+    color:#707070;
+    font-family:Segoe UI;
+    margin-left:160px;
+ }
+ .itemsslick5{
+    font-size:20px;
+    color:#707070;
+    font-family:Segoe UI;
+    margin-left:150px;
+    margin-top:30px;
+ }
+ .itemsslick6{
+    font-size:20px;
+    color:#707070;
+    font-family:Segoe UI;
+    margin-left:150px;
+ }
+ .itemsslick7{
+    font-size:20px;
+    color:#707070;
+    font-family:Segoe UI;
+    margin-left:120px;
+ }
+ .itemsslick8{
+    font-size:20px;
+    color:#707070;
+    font-family:Segoe UI;
+    margin-left:145px;
+ }
+.lowerpic{
+    margin:-30px 0 0 0 ;
+}
+.maybeintrest{
+    font-size:20px;
+    font-family:Segoe UI;
+    color:#707070;
+    letter-spacing: 5px;
+    position: absolute;
+    top:733px;
+    left:260px;
+}
+.totalbt{
+    display: none;
+}
+.ftbox{
+    display: none;
+}
+@media(max-width:768px){
+    body{
+        position: relative;
+        z-index: -1;
+    }
+    .body{
+        height:418px;
+        z-index: -1;
+    }
+    .logopic{
+        width:65px;
+        height:33px;
+        margin-top:8px;
+        margin-left:15px ;
+    }
+#menuToggle
+{
+  display: block;
+  position: absolute;
+  top: 17px;
+  left: 710px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+  color: #000000;
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #000000;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(2px, -1px);
+  background: #000000;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -250px;
+    padding-left: 60px;
+    padding-right: 0px;
+    padding-top: 200px;
+    padding-bottom: 500px;
+    background: #ffffff;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    opacity: 0.9;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 20px 0;
+  font-size: 26px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+    .header{
+        width:768px;
+        height:51px;
+        border:1px solid #707070;
+        z-index: -1;
+    }
+    .logopic img{
+        width:65px;
+        height:33px;
+    }
+    .icon{
+        top:-60px;
+        left:310px;
+        width:24px;
+        height:24px;
+    }
+    #shoppingbag{
+        width:24px;
+        height:24px;
+        top:-60px;
+        left:270px;
+    }
+    .hamburger{
+        display: inline;
+        position: absolute;
+        left:350px;
+        top:-110px;
+        z-index: 1;
+    }
+    #nav-icon2{
+        width:29px;
+        height:4px;
+        z-index: 2;
+    }
+    #nav-icon1 span {
+        display: block;
+        position: absolute;
+        height: 5px;
+        width: 50%;
+        background: black;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+      }
+      
+      #nav-icon1 span:nth-child(1) {
+        top: 0px;
+      }
+      
+      #nav-icon1 span:nth-child(2) {
+        top: 10px;
+      }
+      
+      #nav-icon1 span:nth-child(3) {
+        top: 20px;
+      }
+      
+      #nav-icon1.open span:nth-child(1) {
+        top: 10px;
+        -webkit-transform: rotate(135deg);
+        -moz-transform: rotate(135deg);
+        -o-transform: rotate(135deg);
+        transform: rotate(135deg);
+      }
+      
+      #nav-icon1.open span:nth-child(2) {
+        opacity: 0;
+        left: -60px;
+      }
+      
+      #nav-icon1.open span:nth-child(3) {
+        top: 10px;
+        -webkit-transform: rotate(-135deg);
+        -moz-transform: rotate(-135deg);
+        -o-transform: rotate(-135deg);
+        transform: rotate(-135deg);
+      }
+    .hamlist{
+        position: absolute;
+        top:80px;
+        left:-710px;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        background-color: gray;
+        height:400px;
+        width:768px;
+        z-index: 2;
+        
+    }
+    .hamlist ol{
+        list-style-type: circle;
+        margin:0;
+        position: absolute;
+        top:10px;
+        font-family: Sitka Subheading;
+ height:35px;
+    }
+    .hamlist ol li{
+        
+        margin:0;
+    }
+    .logoline{
+        display: none;
+    }
+    .logoline2{
+        display: none;
+    }
+    #lineb{
+        display: none;
+    }
+    .nike a{
+        display: none;
+    }
+    .adidas a{
+        display: none;
+    }
+    .puma a{
+        display: none;
+    }
+    .newbalance a{
+        display: none;
+    }
+    .reebok a{
+        display: none;
+    }
+    .line{
+        display: none;
+    }
+    #l{
+        display: none;
+    }
+    .seperationline{
+        width:768px;
+        display: none;
+    }
+    .seperationline2{
+       top:490px;
+        left:0px;
+        width:654.65px;
+    }
+    .box2-1{
+        position: absolute;
+        margin:0;
+        top:80px;
+        left:56.5px;
+    }
+    .shoppingcar{
+        font-size:17px;
+
+    }
+    .shoppingcontent{
+        font-size:8px;
+        margin-top:3px;
+    }
+    .caculator{
+        width:129px;
+        height:134px;
+        top:50px;
+        left:326px;
+        margin:0px;
+    }
+    .item{
+        
+        height:11px;
+        font-size:8px;
+        padding:6px 0 0 3px;
+        margin:0;
+    }
+    .caline{
+        width:1px;
+        height:20.76px;
+        position: absolute;
+        margin:0px;
+        top:0.3px;
+        left:96.7px;
+    }
+    .cost{
+        width:30px;
+        height:11px;
+        font-size:8px;
+        margin:0;
+        position: absolute;
+        top:5.5px;
+        left:102px;
+    }
+    #caline{
+        width:128.89px;
+    }
+    .noitem{
+        font-size:5px;
+        margin:4.9px 0 0 2.6px;
+    }
+    #caline1{
+        width:128.89px;
+        margin:75.5px 0 0 0;
+    }
+    .total{
+        font-size:8px;
+        margin:80px 0 0 3px;
+    }
+    .zero{
+        font-size: 8px;
+    }
+    .favorite{
+        font-size: 16px;
+        top:208px;
+        left:0px;
+    }
+    .favoritecontent{
+        font-size:8px ;
+        top:230px;
+        left:0;
+    }
+  .itemslick{
+      top:600px;
+      left:0px;
+  }
+  .itemsslick1{
+      font-size: 8px;
+      margin:0 0 0 60px;
+  }
+  .itemsslick2{
+      font-size: 8px;
+      
+      margin:0 0 0 60px;
+  }
+  .itemsslick3{
+    font-size: 8px;
+    margin:0 0 0 60px;
+  }
+  .itemsslick4{
+    font-size: 8px;
+    margin:0 0 0 60px;
+  }
+  .itemsslick5{
+    font-size: 8px;
+    margin:30px 0 0 60px;;
+
+  }
+  .itemsslick6{
+    font-size: 8px;
+    margin:0 0 0 60px;
+  }
+  .itemsslick7{
+    font-size: 8px;
+    margin:0 0 0 50px;
+  }
+  .itemsslick8{
+    font-size: 8px;
+    margin:0 0 0 60px;
+  }
+  .maybeintrest{
+      font-size:12px;
+      top:500px;
+      width:100%;
+      left:0px;
+  }
+}
+@media(max-width:375px){
+    .body{
+        height:812px;
+    }
+    .logopic{
+        width:108px;
+        height:26px;
+        margin-top:3.5px;
+        margin-left:134px;
+    }
+    .header{
+        width:375px;
+        height:30.5px;
+
+    }
+    #menuToggle{
+        top: 5px;
+        left: 334px;
+    }
+    #menu li
+    {
+        padding: 20px 0;
+        font-size: 26px;
+    }
+    .logopic img{
+        width:108px;
+        height:26px;
+    }
+    .icon{
+        display: none;
+    }
+    .hamburger{
+        top:-118.5px;
+        left:-30px;
+    }
+    #nav-icon2{
+        width:14.3px;
+        height:12.3px;
+    }
+    #nav-icon1 span{
+        height:3px;
+        
+    }
+    #nav-icon1 span:nth-child(2){
+        top:8px;
+    }
+    #nav-icon1 span:nth-child(3) {
+        top: 16px;
+      }
+      .hamlist{
+        position: absolute;
+        top:80px;
+        left:-710px;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        background-color: gray;
+        height:400px;
+        width:768px;
+        z-index: 2;
+        
+    }
+    .hamlist ol{
+        list-style-type: circle;
+        margin:0;
+        position: absolute;
+        top:10px;
+        font-family: Sitka Subheading;
+ height:35px;
+    }
+    .hamlist ol li{
+        
+        margin:0;
+    }
+    .box2-1{
+        top:45px;;
+        left:54px;
+    }
+    .shoppingcar{
+        font-size:17px;
+    }
+    .shoppingcontent{
+        font-size: 10px;
+    }
+    .caculator{
+        
+        display: none;
+    }
+    .totalphone{
+        display: inline;
+        position: absolute;
+    }
+    .toph{
+        position: absolute;
+        top:124px;
+        left:0; 
+        width:50px;
+        font-size: 15px;
+        font-family: Segoe UI;
+        color: black;
+        margin:0;
+    }
+    .itemcost{
+        position: absolute;
+        top:166px;
+        width:40px;
+        font-size:7px ;
+        font-family: Segoe UI;
+        color:#707070 ;
+        margin:0;
+    }
+    .zero1{
+        position: absolute;
+        top:166px;
+        left:257.5px;
+        width:30px;
+        font-size:7px ;
+        font-family: Segoe UI;
+        color:#707070 ;
+        margin:0;
+        font-weight: bold;
+    }
+    .discount{
+        position: absolute;
+        top:178px;
+        width:20px;
+        font-size:7px ;
+        font-family: Segoe UI;
+        color:#707070 ;
+        margin:0;
+    }
+    .zero2{
+        position: absolute;
+        top:178px;
+        left:257.5px;
+        width:30px;
+        font-size:7px ;
+        font-family: Segoe UI;
+        color:#707070 ;
+        margin:0;
+        font-weight: bold;
+    }
+    .fee{
+        position: absolute;
+        top:190px;
+        width:20px;
+        font-size:7px ;
+        font-family: Segoe UI;
+        color:#707070 ;
+        margin:0;
+    }
+    .zero3{
+        position: absolute;
+        top:190px;
+        left:257.5px;
+        width:30px;
+        font-size:7px ;
+        font-family: Segoe UI;
+        color:#707070 ;
+        margin:0;
+        font-weight: bold;
+    }
+    .finaltotal{
+        position: absolute;
+        top:210px;
+        font-size:8px ;
+        font-family: Segoe UI;
+        color:black ;
+        margin:0;
+    }
+    .finalzero{
+        position: absolute;
+        top:210px;
+        left:257.5px;
+        width:30px;
+        font-size:8px ;
+        font-family: Segoe UI;
+        color:black ;
+        margin:0;
+        font-weight: bold;
+    }
+    .favorite{
+        top:391px;
+    }
+    .favoritecontent{
+        top:415px;
+    }
+    .totalbt{
+        display: inline;
+        width:284px;
+        height:30px;
+        background-color:#D4D0D0 ;
+        border:none;
+
+position: absolute;
+        top:245px;
+    }
+    .itemslick{
+        top:600px;
+        left:0px;
+    }
+    .itemsslick1{
+        font-size: 5px;
+        margin:0 0 0 10px;
+    }
+    .itemsslick2{
+        font-size: 5px;
+        
+        margin:0 0 0 25px;
+    }
+    .itemsslick3{
+      font-size: 5px;
+      margin:0 0 0 25px;
+    }
+    .itemsslick4{
+      font-size: 5px;
+      margin:0 0 0 25px;
+    }
+    .itemsslick5{
+      font-size: 5px;
+      margin:30px 0 0 25px;;
+  
+    }
+    .itemsslick6{
+      font-size: 5px;
+      margin:0 0 0 25px;
+    }
+    .itemsslick7{
+      font-size: 5px;
+      margin:0 0 0 5px;
+    }
+    .itemsslick8{
+      font-size: 5px;
+      margin:0 0 0 10px;
+    }
+    .seperationline2{
+        width:319.6px;
+        left:-25px;
+    }
+    .maybeintrest{
+        font-size:8px;
+        top:500px;
+        width:100%;
+        left:0px;
+    }
+    .ftbox{
+        display: inline;
+        position: absolute;
+        top:580px;
+        width:375px;
+        height:232px;
+        background-color: black;
+    }
+    .ftword1{
+        font-size: 12px;
+        font-family: Segoe UI;
+        position: absolute;
+        color: white;
+        top:23px;
+        left:28px;
+    }
+    .ftword2{
+        font-size: 12px;
+        font-family: Segoe UI;
+        position: absolute;
+        color: white;
+        top:50px;
+        left:28px; 
+    }
+    .ftline1{
+        width:318px;
+        border:1px solid #707070;
+        position: absolute;
+        color: white;
+        top:97.5px;
+        left:28px;
+    }
+    .ftword3{
+        font-size: 12px;
+        font-family: Segoe UI;
+        position: absolute;
+        color: white;
+        top:112px;
+        left:28px; 
+    }
+    .ftline2{
+        width:375px;
+        border:1px solid #707070;
+        position: absolute;
+        color: white;
+        top:145.5px;
+       
+    }
+    .ftword4{
+        font-size: 8px;
+        font-family: Segoe UI;
+        position: absolute;
+        color: white;
+        top:156px;
+        left:29px;
+    }
+    .ftword5{
+        font-size: 8px;
+        font-family: Segoe UI;
+        position: absolute;
+        color: white;
+        top:156px;
+        left:172px;
+    }
+    .ftword6{
+        font-size: 8px;
+        font-family: Segoe UI;
+        position: absolute;
+        color: white;
+        top:156px;
+        left:315px;
+    }
+    .adress{
+        font-size: 8px;
+        font-family: Segoe UI;
+        position: absolute;
+        color: white;
+        top:194px;
+        left:28px;
+    }
+    .ftword7{
+        font-size: 4.5px;
+        font-family: Segoe UI;
+        position: absolute;
+        color: white;
+        top:210px;
+        left:29px;
+    }
+}

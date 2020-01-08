@@ -1,0 +1,2203 @@
+html{
+    width: 1920px;
+}
+body{
+  width: 1920px;
+}
+.body{
+   position: relative;
+    height:7290px;
+    
+}
+.header{
+    position:fixed;
+    display:flex;
+    top:0px;
+    z-index:-1;
+    
+}
+.logopic{
+    width:276px;
+    height:144px;
+    margin:28px 1621px 2356px 23px;
+    padding:0;
+    z-index:2;
+    
+}
+.logopic img{
+    margin:0px;
+}
+.list{
+    
+   margin:76px 1462px 2387px 367px;
+   width:1284px;
+    height:185px;
+    padding:0% 0% 0% 0%;
+    position:fixed;
+    top:0px;
+    z-index:1;
+    
+}
+.list ol{
+   
+    display: flex;
+  list-style-type: none;
+ padding:0;
+ margin:0;
+ font-family: Sitka Subheading;
+ height:35px;
+    
+}
+.icon{
+    width:40px;
+    height:40px;
+    
+}
+#search{
+    position: absolute;
+    top:0px;
+    left:1318px;
+}
+#shoppingbag {
+    position: absolute;
+    top:0;
+    left:1423px;
+    
+}
+#shoppingbag a:hover>img{
+    transform:scale(1.5);
+}
+.logoline{
+    border:1px;
+    position:fixed;
+        width:2px;
+        height:185px;
+        background-color: #707070;
+        margin:0;
+        top:0.5px;
+        left:329.5px;
+        right:1590.5px;
+        bottom:2132.5px;
+        
+    }
+    .logoline2{
+        border:1px;
+        
+            width:2px;
+            height:185px;
+            background-color: #707070;
+            margin:-5.88% 0px 0px 167.5px;
+            
+            
+        }
+.line{
+border:1px;
+    
+    width:2px;
+    height:39px;
+    background-color: #707070;
+    margin:0 25.5px 0 25.5px;
+    
+}
+#between{
+    position: absolute;
+    margin:0;
+    top:0;
+    left:1392.5px;
+}
+.nike a{
+    color:rgb(0, 0, 0);
+    width:91px;
+    text-decoration: none;
+}
+.nike a:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgb(145, 151, 151);
+}
+.adidas a{
+    color:rgb(0, 0, 0);
+    width:137px;
+    text-decoration: none;
+}
+.adidas a:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgb(145, 151, 151);
+}
+.puma a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    width:105px;
+}
+.puma a:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgb(145, 151, 151);
+}
+.newbalance a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+width:264px;
+}
+.newbalance a:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgb(145, 151, 151);
+}
+.reebok a{
+width:147px;
+color:rgb(0, 0, 0);
+text-decoration: none;
+}
+.reebok a:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgb(145, 151, 151);
+}
+#l{
+   font-size:35px;
+   font-weight: bold;
+   color:#444444;
+   line-height: 51px;
+   letter-spacing: 50;
+   font-weight: bold;
+}
+.hamburger{
+    display:none;
+}
+#nav-icon1 {
+    width: 60px;
+    height: 45px;
+    position: relative;
+    margin: 50px auto;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+  }
+  
+  #nav-icon1 span {
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 50%;
+    background: black;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+  }
+  
+  #nav-icon1 span:nth-child(1) {
+    top: 0px;
+  }
+  
+  #nav-icon1 span:nth-child(2) {
+    top: 10px;
+  }
+  
+  #nav-icon1 span:nth-child(3) {
+    top: 20px;
+  }
+  
+  #nav-icon1.open span:nth-child(1) {
+    top: 10px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+  
+  #nav-icon1.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+  }
+  
+  #nav-icon1.open span:nth-child(3) {
+    top: 10px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+  }
+.box1{
+
+    width:1920px;
+    height:630px;
+    background-color: #3A2A2D;
+    margin:185px 0 0 0;
+}
+.box1 >p{
+    width:564px;
+    height:123px;
+    padding:103px 0px 0px 168px;
+    margin-bottom:0px;
+    font-size: 50px;
+    font-family:Sitka Small;
+    font-weight: bold;
+    color:white;
+    line-height: 73px;
+}
+.square1{
+    position: absolute;
+    left:237px;
+    top:188px;
+    width:267px;
+    height:76px;
+    border:1px;
+    border-color: #707070;
+    background-color: white;
+}
+.square1 >p{
+    width:272px;
+    height:37px;
+    margin:0px;
+    padding:20px 69px 19px 75px;
+   
+    font-family:Microsoft JhengHei;
+    font-weight: bold;
+    letter-spacing: px;
+    line-height:41px ;
+    font-size:28px;
+    
+   
+}
+.square2{
+    position: absolute;
+    top:285px;
+    left:237px;
+    width:267px;
+    height:76px;
+    border:1px;
+    border-color: #707070;
+    background-color: white;
+    
+}
+.square2 >p{
+    width:300px;
+    height:28px;
+    margin:0px;
+    padding:20px 50px 19px 25px;
+   
+    font-family:Sitka Subheading;
+    font-weight: bold;
+    letter-spacing: 5px;
+    line-height:41px ;
+    font-size:28px;
+}
+.boxpic{
+    position: fixed ;
+}
+.box1z1{
+    width:1195px;;
+    height:672.5px;
+    
+   position: absolute;
+   top:57px;
+   left:668px;
+    z-index:1;
+}
+.box1z1p{
+    width: 647px;
+    height:288.86px;
+    top:120.1px;
+    left:61.2px;
+    position: absolute;
+    display: none;
+}
+.box1z2{
+    width: 600px;
+    height:450px;
+    position: absolute;
+    top:405px;
+    left:122px;
+    z-index:2;
+}
+.nikelogo{
+    width:334px;
+    height:179px;
+    position: absolute;
+    top:776px;
+    left:1565px;
+}
+.nikelogo_p{
+    position: absolute;
+    top:120px;
+    left:563.1px;
+    display: none;
+}
+.box2 img{
+
+    width:250px;
+    height:250px;
+   
+   
+   
+}
+.nike1{
+    position: absolute;
+    top:933px;
+    left:370px;
+}
+.information{
+    font-size:20px;
+    font-family:Segoe UI;
+    line-height: 15px;
+    margin:0;
+}
+#infnike1{
+    width:240px;
+    height:81px;
+    margin:0;
+    position: absolute;
+    top:1242px;
+    left:688px;
+   
+}
+#infnike2{
+    margin:0;
+    position: absolute;
+    width:240px;
+    height:81px;
+   top:1242px;
+  left:1040px;
+
+   
+}
+#infnike3{
+    margin:0;
+    width:200px;
+    height:81px;
+    position: absolute;
+top:1242px;
+left:1379px;
+}
+#infnike4{
+    margin:0;
+    width:200px;
+    height:81px;
+    position: absolute;
+   top:1242px;
+  left:423px;
+}
+#infnike4ph{
+    display: none;
+    margin:0;
+}
+.seemore{
+    display: none;
+}
+.nike2{
+   
+    position: absolute;
+    top:933px;
+    left:680px;
+}
+.nike3{
+    position: absolute;
+    top:933px;
+    left:990px;
+}
+.nike4{
+    position: absolute;
+    top:933px;
+    left:1300px; 
+}
+.Horizontal-line{
+    width:279px;
+    height:1px;
+    margin:0;
+    background-color: #707070;
+}
+#hline1{
+    position: absolute;
+    top:1223.5px;
+    left:355.5px;
+}
+#hline2{
+    position: absolute;
+    top:1223.5px;
+    left:665.5px;
+}
+#hline3{
+    position: absolute;
+    top:1223.5px;
+    left:975.5px;
+}
+#hline4{
+    position: absolute;
+    top:1223.5px;
+    left:1285.5px;
+}
+.box3{
+    position: absolute;
+    top:1351.5px;
+}
+.box3pic{
+WIDTH:100%;
+height:630px;
+
+}
+.box3 >p{
+    margin:0 auto;
+    width:100%;
+    height:40px;
+    background-color: #712105;
+}
+#box3colorarea{
+    margin-top:0px;
+}
+.adidaspic img{
+   padding-bottom: 0;
+    width:250px;
+    height:250px;
+
+}
+.adidas1{
+    position: absolute;
+    top:819px;
+    left:370px;
+}
+.adidas2{
+    position: absolute;
+    top:819px;
+    left:680px;
+}
+.adidas3{
+    position: absolute;
+    top:819px;
+    left:990px;
+}
+.adidas4{
+    position: absolute;
+    top:819px;
+    left:1300px;
+}
+#aline1{
+    position: absolute;
+    top:1109.5px;
+    left:355.5px;
+    
+}
+#aline2{
+    position: absolute;
+    top:1109.5px;
+    left:665.5px;
+    
+}
+#aline3{
+    position: absolute;
+    top:1109.5px;
+    left:975.5px;
+    
+}
+#aline4{
+    position: absolute;
+    top:1109.5px;
+    left:1285.5px;
+   
+}
+#infadidas1{
+    width:240px;
+    height:81px;
+    position: absolute;
+    top:1128px;
+    left:1352px;
+font-weight: unset;
+   
+}
+#infadidas2{
+    width:206px;
+    height:81px;
+    position: absolute;
+    top:1128px;
+    left:1029px;
+  font-weight: unset;
+   
+   
+}
+#infadidas3{
+    width:200px;
+    height:81px;
+    position: absolute;
+    top:1128px;
+    left:765px;
+  font-weight: unset;
+   
+}
+#infadidas4{
+    width:220px;
+    height:81px;
+    position: absolute;
+    top:1128px;
+    left:393px;
+  font-weight: unset;
+   
+}
+.rose{
+    display: none;
+}
+.seemorea{
+    display: none;
+}
+.box4{
+    position: absolute;
+    top:2595.5px;
+}
+.box4pic{
+    width: 100%;
+    height:615.98px;
+    
+    
+}
+.pumaslogan{
+    width:400px;
+    height:123px;
+    font-size:50px;
+    font-family:Sitka Text;
+    font-weight: bold;
+    color:white;
+    position: absolute;
+    top:138px;
+    left:247px;
+    margin:0;
+}
+.pumaslogan1{
+    width:350px;
+    height:30px;
+    font-size:30px;
+    font-family:Sitka Text;
+    color:white;
+    position: absolute;
+    top:280px;
+    left:247px;
+    margin:0;
+}
+.pumalogo{
+    width:345px;
+    height:277px;
+    position: absolute;
+    top:615.98px;
+    left:1565px;
+}
+.puma1{
+    width:250px;
+    height:250px;
+    position: absolute;
+    top:724.98px;
+    left:370px;
+    
+    
+}
+.puma2{
+    width:250px;
+    height:250px;
+    position: absolute;
+    top:724.98px;
+    left:680px;
+}
+.puma3{
+    width:250px;
+    height:250px;
+    position: absolute;
+    top:724.98px;
+    left:990px;
+}
+.puma4{
+    width:250px;
+    height:250px;
+    position: absolute;
+    top:724.98px;
+    left:1300px;
+}
+#pline1{
+    
+    position: absolute;
+    top:1015.48px;
+    left:355.5px;
+    
+}
+#pline2{
+    position: absolute;
+    top:1015.48px;
+    left:665.5px;
+    
+}
+#pline3{
+    position: absolute;
+    top:1015.48px;
+    left:975.5px;
+    
+}
+#pline4{
+    position: absolute;
+    top:1015.48px;
+    left:1285.5px;
+   
+}
+#infpuma1{
+    width:200px;
+    height:81px;
+    position: absolute;
+    top:1033.98px;
+    left:380px;
+}
+#infpuma2{
+    position: absolute;
+    top:1033.98px;
+    left:719px;
+}
+#infpuma3{
+    position: absolute;
+    top:1033.98px;
+    left:1045px;
+}
+#infpuma4{
+    width:300px;
+    height:81px;
+    position: absolute;
+    top:1033.98px;
+    left:1284px;
+}
+.pumaphname{
+    display: none;
+}
+.seemorepuma{
+    display: none;
+}
+.box5{
+    position: absolute;
+    top:3764.5px;
+}
+#box5pic1{
+   
+    width:474px;
+    height:689.5px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+#box5pic2{
+   
+    width:1033px;
+    height:689.5px;
+    position: absolute;
+    top:0;
+    left:474px;
+}
+#box5pic3{
+    
+    width:413px;
+    height:689.5px;
+    position: absolute;
+    top:0;
+    left:1507px;
+}
+#box5logo{
+    width:248px;
+    height:122px;
+    position: absolute;
+    top:250px;
+    left:1256px;
+    display:flex;
+   
+    
+    
+}
+.slogan{
+    font-size:50px;
+    font-family:Sitka Heading;
+    letter-spacing:10px;
+    color:white;
+    line-height:73px;
+    font-weight: bold;
+    position: absolute;
+    top:417px;
+    left:652px;
+    margin:0;
+    width:667px;
+}
+.new1{
+    width:250px;
+    height:250px;
+    position: absolute;
+    top:780px;
+    left:370px;
+    
+}
+.new2{
+    width:250px;
+    height:250px;
+    position: absolute;
+    top:780px;
+    left:680px;
+}
+.new3{
+    width:250px;
+    height:250px;
+    position: absolute;
+    top:780px;
+    left:990px;
+    
+}
+.new4{
+    width:250px;
+    height:250px;
+    position: absolute;
+    top:780px;
+    left:1300px;
+}
+#infnew1{
+    width:240px;
+    height:81px;
+    position: absolute;
+    margin:0;
+    top:1089px;
+    left:1305px;
+
+   
+}
+#infnew2{
+    width:240px;
+    height:81px;
+    position: absolute;
+    margin:0;
+    top:1089px;
+    left:1047px;
+
+   
+}
+#infnew3{
+    width:200px;
+    height:81px;
+    position: absolute;
+    margin:0;
+    top:1089px;
+    left:755px;
+}
+#infnew4{
+    width:200px;
+    height:81px;
+    position: absolute;
+    margin:0;
+    top:1089px;
+    left:345px;
+}
+#nline1{
+    position: absolute;
+    margin:0;
+    top:1070.5px;
+    left:355.5px;
+}
+#nline2{
+    position: absolute;
+    margin:0;
+    top:1070.5px;
+    left:665.5px;
+}
+#nline3{
+    position: absolute;
+    margin:0;
+    top:1070.5px;
+    left:975.5px;
+}#nline4{
+    position: absolute;
+    margin:0;
+    top:1070.5px;
+    left:1285.5px;
+}
+.seemorenew{
+   display: none;
+}
+.newphname{
+    display:none;
+}
+.box6{
+    display:relative;
+    position: absolute;
+    top:4999.5px;
+}
+.box6picback{
+    width:1920px;
+    height:874.5px;
+    
+    z-index:1;
+    
+     
+       
+       
+   
+}
+.box6picfront{
+ width:1108px;
+ height:761px;
+ position: absolute;
+
+ top:57px;
+ left:260px;
+
+}
+.reebokslogan{
+    width:375px;
+    height:80px;
+    font-size:40px;
+    font-family:Sitka Heading;
+    font-weight: bold;
+    transform: rotate(30deg);
+    position: absolute;
+    margin:0;
+    top:180px;
+    left:1450px;
+    padding:0;
+    color:white;
+}
+.reeboklogo{
+    width:315px;
+    height:160px;
+    position: absolute;top:874.5px;left:1565px;
+    
+}
+.reebok1{
+    position: absolute;top:1026px;left:370px;
+}
+.reebok2{
+    position: absolute;top:1026px;left:680px;
+}
+.reebok3{
+    position: absolute;top:1026px;left:990px;
+}
+.reebok4{
+    position: absolute;top:1026px;left:1300px;
+}#rline1{
+    
+    position: absolute;top:1308.5px;left:355.5px;
+    
+}
+#rline2{
+    position: absolute;top:1308.5px;left:665.5px;
+    
+}
+#rline3{
+    position: absolute;top:1308.5px;left:975.5px;
+    
+    
+}
+#rline4{
+    position: absolute;top:1308.5px;left:1285.5px;
+    
+   
+}
+#infreebok1{
+    width:310px;
+    height:81px;
+    position: absolute;top:1327px;left:380px;
+  
+    margin:0;
+   
+}
+#infreebok2{
+    margin:0;
+    width:180px;
+    height:81px;
+    position: absolute;top:1327px;left:1341px;
+   
+}
+#infreebok3{
+    width:200px;
+    height:81px;
+    position: absolute;top:1327px;left:745px;
+    margin:0;
+}
+#infreebok4{
+    width:200px;
+    height:81px;
+    position: absolute;top:1327px;left:1045px;
+    margin:0;
+}
+.seemoreree{
+    display: none;
+}
+.reebokphname{
+    display: none;
+}
+.bottom{
+    position: absolute;
+    top:6483.5px;
+}
+footer{
+    height:621.04px;
+    width: 1920px;
+}
+.footerbox1{
+    width:1920px;
+    height:114.04px;
+    background-color: black;
+    margin-top:103px;
+    display: flex;
+}
+.footerlogo{
+    width:137px;
+    height:70px;
+   margin:22px 0 0 20px;
+}
+.footerenvelope{
+    width:35px;
+    height:35px;
+    margin:40px 12px 0 61%;
+    
+}
+.sub{
+    
+    width:92px;
+    height:21px;
+    font-size:23px;
+    font-family:Microsoft JhengHei;
+    margin-top:40px;
+    margin-left:12px;
+    color:white;
+}
+.textbox{
+    margin:40px 0% 0 21px;
+    padding:0;
+    width:247px;
+    height:31px;
+}
+.footerbox2{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+}
+.contacticon{
+    width:37px;
+    height:42.29px;
+    margin:54px 0 0 100px;
+}
+.contact{
+    width:80px;
+    height:27px;
+    font-size: 20px;
+    font-family:Microsoft JhengHei;
+    color:#6A5D5D;
+    margin:60px 0 0 10px;
+}
+.helpicon{
+    width:37px;
+    height:37px;
+    margin:60px 0 0 446px;
+}
+.help{
+    width:80px;
+    height:27px;
+    font-size: 20px;
+    font-family:Microsoft JhengHei;
+    color:#6A5D5D;
+    margin:60px 0 0 10px;
+}
+.abouticon{
+    width:62px;
+    height:28.75px;
+    margin:60px 0 0 400px;
+}
+.about{
+    width:80px;
+    height:27px;
+    font-size: 20px;
+    font-family:Microsoft JhengHei;
+    color:#6A5D5D;
+    margin:60px 0 0 10px;
+}
+.footerbox3{
+
+    width:100%;
+}
+.seperationline{
+    width:100%;
+    height:1px;
+    background-color: #D8D7D7;
+    margin-top:12.2px;
+}
+.contactcontent{
+    font-size:20px;
+    font-family:Microsoft JhengHei;
+    color:#6A5D5D;
+    margin:13.5px 0 0 147px
+}
+.helpcontent{
+    font-size:20px;
+    font-family:Microsoft JhengHei;
+    color:#6A5D5D;
+    margin:-129.5px 0 0 721px;
+}
+.aboutcontent{
+    font-size:20px;
+    font-family:Microsoft JhengHei;
+    color:#6A5D5D;
+    margin:-133.5px 0 0 1272px;
+}
+.locationicon{
+    width:32px;
+    height:44px;
+    margin:33px 0 0 100px;
+}
+.location{
+    font-size: 20px;
+    font-family:Microsoft JhengHei;
+    color:#6A5D5D;
+    margin:-40px 0 0 146px;
+}
+.locationcontent{
+    font-size:20px;
+    font-family:Microsoft JhengHei;
+    color:#6A5D5D;
+    margin:16px 0 0 146px;
+}
+.locationcontent1{
+    font-size:15px;
+    font-family:Microsoft JhengHei;
+    color:#6A5D5D;
+    margin-left:146px;
+}
+.fbicon{
+    margin:0% 0 0 84%;
+}
+.igicon{
+    margin-left:30px;
+}
+.yticon{
+    margin-left:30px;
+}
+.fbp{
+    display: none;
+}
+.igp{
+    display: none;
+}
+.ytp{
+    display: none;
+}
+.ftw{
+    font-size: 5px;
+    font-family: Sitka Subheading;
+    display: none;
+    color: white;
+}
+@media(max-width:768px){
+   
+    .openingAnimation{
+        position: absolute;
+        top:0;
+        left:0;
+    }
+    html{
+        width:100%;
+    }
+    body{
+        width:100%;
+    }
+    .header{
+        z-index: 1;
+    }
+    .body{
+        height:3270px;
+        z-index: 2;
+    }
+    .logopic{
+        width:75px;
+    height:46px;
+    }
+    .logopic img{
+        width:75px;
+        height:46px;
+    }
+    #l{
+        display: none;
+    }
+    .list p{
+        display: none;
+    }
+    #search{
+        top:-35px;
+        left:254px;
+        height:24px;
+        width:24px;
+    }
+    #shoppingbag{
+    
+            top:-35px;
+            left:297px;
+            height:24px;
+            width:24px;
+        
+    }
+
+    #menuToggle
+{
+  display: block;
+  position: absolute;
+  top: 42px;
+  left: 710px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+  color: #000000;
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #000000;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(2px, -1px);
+  background: #000000;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -250px;
+    padding-left: 60px;
+    padding-right: 0px;
+    padding-top: 200px;
+    padding-bottom: 500px;
+    background: #ffffff;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    opacity: 0.9;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 20px 0;
+  font-size: 26px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+.container{
+    position: absolute;
+    top:80px;
+    
+}
+    .hamburger{
+        display: inline;
+        position: absolute;
+        left:710px;
+        top:-10px;
+        
+    }
+    #nav-icon2{
+        width:29px;
+        height:4px;
+    }
+    .hamlist{
+        position: absolute;
+        top:80px;
+        left:-710px;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        background-color: gray;
+        height:400px;
+        width:768px;
+        z-index: 2;
+        
+    }
+    .hamlist ol{
+        list-style-type: circle;
+        margin:0;
+        position: absolute;
+        top:10px;
+        font-family: Sitka Subheading;
+ height:35px;
+    }
+    .hamlist ol li{
+        
+        margin:0;
+    }
+    .box1{
+        width:768px;
+        background-color: white;
+    }
+    .square1{
+        display: none;
+    }
+    .square2{
+        display:none;
+
+    }
+    .box1z1{
+        display:none;
+    }
+    .box1z1p{
+   display: inline;
+    }
+    .box1z2{
+        display: none;
+    }
+    .nikelogo{
+        display: none;
+    }
+    .nikelogo_p{
+        display: inline;
+    }
+    .box2 img{
+        width:149px;
+    height:149px
+    }
+    .nike1{
+        position: absolute;
+        top:443.2px;
+        left:86.3px;
+    }
+    .information{
+        font-size:12px;
+        line-height: 10px;
+    }
+    #infnike1{
+        
+        
+        margin:0;
+        position: absolute;
+        top:619px;
+        left:90px;
+        display: none;
+    }
+    #infnike2{
+        top:619px;
+        left:557.3px;
+    }
+    #infnike3{
+        top:619px;
+        left:355.3px;
+    }
+    #infnike4{
+        top:619px;
+        left:114.3px;
+    }
+    .nike2{
+        top:443.2px;
+        left:309.3px;
+        display: none;
+    }
+    .nike3{
+        top:443.2px;
+        left:532.3px;
+    }
+    .nike4{
+        top:443.2px;
+        left:309.3px;
+    }
+    .Horizontal-line{
+       width:170.49px;
+
+    }
+    #hline1{
+        top:620.6px;
+        left:76.2px;
+    }
+    #hline2{
+        top:620.6px;
+        left:298.9px;
+    }
+    #hline3{
+        top:620.6px;
+        left:521.6px;
+    }
+    #hline4{
+        display: none;
+    }
+    .box3{
+        top:726px;
+        left:60.3px;
+    }
+    .box3 >p{
+        width:647px;
+        height:20px;
+    }
+    .box3pic{
+        width:647px;
+        height:213px;
+    }
+    .adidaspic img{
+        width:149px;
+        height:149px;
+        margin:0;
+        padding:0;
+    }
+    .adidas1{
+       
+        display:none;
+    }
+    .adidas2{
+        top:307px;
+        left:26.3px;
+    }
+    .adidas3{
+        top:307px;
+        left:249.3px;
+    }
+    .adidas4{
+        top:307px;
+        left:472.3px;
+    }
+    #aline1{
+        top:484.9px;
+        left:18.3px;
+    }
+    #aline2{
+        top:484.9px;
+        left:238.9px;
+    }
+    #aline3{
+        top:484.9px;
+        left:461.6px;
+    }
+    #aline4{
+        display:none;
+    }
+    #infadidas1{
+        top:507px;
+        left:503.3px;
+    }
+    #infadidas2{
+        top:507px;
+        left:270.3px; 
+    }
+    #infadidas3{
+        top:507px;
+        left:80.3px;
+    }
+    #infadidas4{
+        display: none;
+    }
+    
+    .box4{
+        top:1402px;
+    }
+    .box4pic{
+        height:213px;
+    }
+    .pumaslogan{
+        display:none;
+    }
+    .pumaslogan1{
+        display: none;
+    }
+    .pumalogo{
+        top:217px;
+        left:578px;
+        width:172px;
+        height:137px;
+    }
+    .pumabt{
+        display: none;
+    }
+    .puma1{
+        top:351px;
+        left:87.3px;
+        width:149px;
+        height:148px;
+        display: none;
+    }
+    .puma2{
+        top:351px;
+        left:533.3px;
+        width:149px;
+        height:148px;
+    }
+    .puma3{
+        top:351px;
+        left:310.3px;
+        width:149px;
+        height:148px;
+    }
+    .puma4{
+        top:351px;
+        left:87.3px;
+        width:149px;
+        height:148px;
+    }
+    #pline1{
+        width:170.49px;
+        top:527.7px;
+        left:78.3px;
+    }
+    #pline2{
+        width:170.49px;
+        top:527.7px;
+        left:300px;
+    }
+    #pline3{
+        width:170.49px;
+        top:527.7px;
+        left:522.7px;
+    }
+    #pline4{
+        display: none;
+    }
+    #infpuma1{
+        top:539px;
+        left:96.3px;
+    }
+    #infpuma2{
+        top:539px;
+        left:338.3px;
+    }
+    #infpuma3{
+        top:539px;
+        left:571.3px;
+    }
+    #infpuma4{
+        display:none;
+    }
+    .box5{
+        top:2049.6px;
+    }
+    #box5pic1{
+        width:159.94px;
+        height:232.69px;
+        left:59.7px;
+    }
+    #box5pic2{
+        width:348px;
+        height:232px;
+        left:219.3px;
+    }
+    #box5pic3{
+        width:139.36px;
+        height:232.58px;
+        left:567.9px;
+    }
+    #box5logo{
+        width:118px;
+        height:58px;
+        left:470.3px;
+        top:20px;
+    }
+    .slogan{
+        display: none;
+    }
+    .new1{
+        width:149px;
+        height:149px;
+        top:289.39px;
+        left:87.3px;
+    }
+    .new2{
+        width:149px;
+        height:149px;
+        top:289.39px;
+        left:312.3px;
+    }
+    .new3{
+        width:149px;
+        height:149px;
+        top:289.39px;
+        left:533.3px;
+    }
+    .new4{
+        display: none;
+    }
+    #infnew1{
+        
+      display: none;
+    }
+    #infnew2{
+        top:476.39px;
+        left:562.3px;
+    }
+    #infnew3{
+        top:476.39px;
+        left:352.3px;
+    }
+    #infnew4{
+        top:476.39px;
+        left:74.3px;
+    }
+    #nline1{
+        top:465.09px;
+        left:78.3px;
+    }
+    #nline2{
+        top:465.09px;
+        left:298.9px;
+    }
+    #nline3{
+        top:465.09px;
+        left:522.7px;
+    }
+    #nline4{
+        display:none;
+    }
+    .box6{
+        top:2634.6px;
+        left:59.7px;
+    }
+    .box6picback{
+        width:647.85px;
+        height:281.85px;
+    }
+    .box6picfront{
+        width:361px;
+        height:239px;
+        top:20.4px;
+        left:102.6px;
+    }
+    .reebokslogan{
+        font-size:20px;
+        top:107.9px;
+        left:437.3px;
+    }
+    .reeboklogo{
+        width:159px;
+        height:81px;
+        top:281.85px;
+        left:487.3px;
+    }
+    .reebok1{
+        display: none;
+    }
+    .reebok2{
+        width:149px;
+        height:149px;
+        top:380.45px;
+        left:252.3px;
+    }
+    .reebok3{
+        width:149px;
+        height:149px;
+        top:380.45px;
+        left:476.3px;
+    }
+    .reebok4{
+        width:149px;
+        height:149px;
+        top:380.45px;
+        left:26.3px;
+    }
+    #infreebok1{
+        top:566.45px;
+        left:26.3px;
+    }
+    #infreebok2{
+       display: none;
+    }
+    #infreebok3{
+        top:566.45px;
+        left:512.3px;
+    }
+    #infreebok4{
+        top:566.45px;
+        left:280.3px;
+    }
+    #rline1{
+        width: 170.49px;
+        top:554.65px;
+        left:15.3px;
+    }
+    #rline2{
+        width: 170.49px;
+        top:554.65px;
+        left:243.9px;
+    }
+    #rline3{
+        width: 170.49px;
+        top:554.65px;
+        left:467.7px;
+    }
+    #rline4{
+        display: none;
+    }
+    .footer{
+        position: absolute;
+        top:3306px;
+    }
+    .footerbox1{
+        position: absolute;
+        top:-3200px;
+        margin:0px;
+        width:767.2px;
+        height:49.02px;
+    }
+    .footerlogo{
+        width:71px;
+        height:32px;
+        margin-top:10px;
+    }
+    .footerenvelope{
+        display: none;
+    }
+    .sub{
+        display: none;
+    }
+    .fbp{
+        display: inline;
+        position: absolute;
+        top:15px;
+        left:559.2px;
+    }
+    .igp{
+        display: inline;
+        position: absolute;
+        top:11px;
+        left:587.2px;
+    }
+    .ytp{
+        display: inline;
+        position: absolute;
+        top:16px;
+        left:632.2px;
+    }
+    .ftw{
+        display: inline;
+        position: absolute;
+        top:38px;
+        left:671.2px;
+    }
+    .textbox{
+        display: none;
+    }
+    .footerbox2{
+        display:none;
+    }
+    .seperationline{
+        display:none;
+    }
+    .helpcontent{
+        display: none;
+    }
+    .contactcontent{
+        display: none;
+    }
+    .aboutcontent{
+        display: none;
+    }
+    .locationcontent{
+        display: none;
+    }
+    .location{
+        display: none;
+    }
+    .locationcontent1{
+        display: none;
+    }
+    .locationicon{
+        display: none;
+    }
+    .fbicon{
+   display: none;
+    }
+    .igicon{
+        display: none;
+    }
+    .yticon{
+        display: none;
+    }
+    }
+    
+    @media(max-width:375px){
+        .body{
+            height:899px;
+        }
+        .logopic{
+            width:108px;
+            height:26px;
+            position: absolute;
+            top:3px;
+            left:134px;
+            margin:0;
+        }
+        .logopic img{
+            width:108px;
+            height:26px;
+        }
+        #search{
+            display: none;
+        }
+        #shoppingbag{
+            display:none;
+        }
+        #menuToggle{
+            top: 5px;
+            left: 334px;
+        }
+        #menu li
+        {
+            padding: 20px 0;
+            font-size: 26px;
+        }
+        .hamburger{
+            top:-40px;
+            left:350px;
+        }
+        #nav-icon1{
+            width:30px;
+        }
+        #nav-icon1 span{
+            height:2px;
+        }
+        #nav-icon1 span:nth-child(2){
+            top:5px;
+        }
+        #nav-icon1 span:nth-child(3){
+            top:10px;
+        }
+        .hamlist{
+
+        }
+        .hamlist ol{
+
+        }
+        .hamlist ol li{
+
+        }
+        .linephone{
+            width:375px;
+            border:1px solid;
+            height:0px;
+            position: absolute;
+            top:30.5px;
+            left:0.5px;
+        }
+        .box1{
+            width:321px;
+            height:126px;
+            border:1px solid;
+            position: absolute;
+            top:51px;
+            left:18px;
+            margin: 0;
+        }
+        .box1z1p{
+            width:169px;
+            height:115.86px;
+            top:0px;
+            left:0px;
+            margin:0;
+        }
+        .box1 p{
+            display: none;
+        }
+        .nikelogo_p{
+            width:26px;
+            height:14px;
+            position: absolute;
+            top:0px;
+            left:138.1px;
+        }
+        .box2 img{
+            width:73px;
+            height:73px;
+        }
+        .nike1{
+            top:70px;
+            left:213px;
+        }
+        .informatiom{
+            font-size:8px;
+            font-weight: bold;
+        }
+        #infnike4ph{
+            margin:0;
+            font-size:8px;
+            font-weight: bold;
+            position: absolute;
+            top:145px;
+            left:214.6px;
+            display: inline;
+            color:#0F51A7 ;
+        }
+        #infnike4{
+            display:none;
+        }
+        .seemore{
+           
+            font-size: 6px;
+            color: black;
+            font-weight: bold;
+            display: inline;
+            position: absolute;
+            margin:0;
+            top:162px;
+            left:295px;
+        }
+        .nike2{
+            display: none;
+        }
+        .nike3{
+            display: none;
+        }
+        .nike4{
+            display: none;
+        }
+        .Horizontal-line{
+            display: none;
+        }
+        .information{
+            display: none;
+        }
+        .box3{
+            width:321px;
+            height:126px;
+            border: 1px solid;
+            top:216px;
+            left:18px;
+        }
+        .box3pic{
+            width:169px;
+            height:97px;
+        }
+        .box3 >p{
+            width:169px;
+            height:5px;
+            margin:0;
+        }
+        .adidaspic img{
+            width:73px;
+            height:73px;
+        }
+        .adidas1{
+            display: none;
+        }
+        .adidas2{
+            top:19px;
+            left:195px;
+        }
+        .adidas3{
+            display: none;
+        }
+        .adidas4{
+            display: none;
+        }
+        .seemorea{
+            font-size: 6px;
+            color: black;
+            font-weight: bold;
+            display: inline;
+            position: absolute;
+            margin:0;
+            top:111px;
+            left:276px;
+        }
+        .rose{
+            margin:0;
+            font-size:8px;
+            font-weight: bold;
+            position: absolute;
+            top:98px;
+            left:210px;
+            display: inline;
+            color:#0F51A7 ;
+        }
+        .box4{
+            top:381px;
+            left:18px;
+            border:1px solid;
+            width:321px;
+            height:126px;
+        }
+        .box4pic{
+            width:169px;
+            height:115.86px;
+        }
+        .pumalogo{
+            width:42px;
+            height:33px;
+            top:82px;
+            left:127px;
+        }
+        .puma1{
+            display: none;
+        }
+        .puma2{
+            display: none;
+        }
+        .puma3{
+            display: none;
+        }
+        .puma4{
+            width:73px;
+            height:73px;
+            top:20px;
+            left:195px;
+        }
+        .pumaphname{
+            margin:0;
+            font-size:8px;
+            font-weight: bold;
+            position: absolute;
+            top:99px;
+            left:193px;
+            display: inline;
+            color:#0F51A7 ;
+        }
+        .seemorepuma{
+            font-size: 6px;
+            color: black;
+            font-weight: bold;
+            display: inline;
+            position: absolute;
+            margin:0;
+            top:111px;
+            left:276px;
+        }
+        .box5{
+           width:321px;
+           height:126px;
+           border:1px solid black;
+           top: 546px;
+           left:18px;
+        }
+        #box5pic1{
+            display:none;
+        }
+        #box5pic2{
+            width:169px;
+            height:115.86px;
+            top:0px;
+            left:0;
+
+        }
+        #box5pic3{
+            display:none;
+        }
+        #box5logo{
+            display: none;
+        }
+        .new1{
+            width:73px;
+            height:73px;
+            top:20px;
+            left:195px;
+        }
+        .new2{
+            display: none;
+        }
+        .new3{
+            display: none;
+        }
+        .new4{
+            display: none;
+        }
+        .seemorenew{
+            font-size: 6px;
+            color: black;
+            font-weight: bold;
+            display: inline;
+            position: absolute;
+            margin:0;
+            top:111px;
+            left:276px;
+        }
+        .newphname{
+            font-family: Segoe UI;
+            margin:0;
+            font-size:8px;
+            font-weight: bold;
+            position: absolute;
+            top:99px;
+            left:182px;
+            display: inline;
+            color:#0F51A7 ;
+        }
+        .box6{
+          width:321px;
+          height:126px;
+          top:711px;
+          left:18px;
+          border:1px solid;
+        }
+        .box6picback{
+            width:169px;
+            height:115.86px;
+        }
+        .box6picfront{
+            width:144.81px;
+            height:95.96px;
+            top:12.4px;
+            left:9px;
+        }
+        .reebok1{
+            display: none;
+        }
+        .reebok2{
+            width:73px;
+            height:73px;
+            top:20px;
+            left:195px;
+        }
+        .reebok3{
+            display:none;
+        }
+        .reebok4{
+            display: none;
+        }
+        .seemoreree{
+            font-size: 6px;
+            color: black;
+            font-weight: bold;
+            display: inline;
+            position: absolute;
+            margin:0;
+            top:111px;
+            left:276px;
+        }
+        .reebokphname{
+            font-family: Segoe UI;
+            margin:0;
+            font-size:8px;
+            font-weight: bold;
+            position: absolute;
+            top:99px;
+            left:206px;
+            display: inline;
+            color:#0F51A7 ;
+        }
+        .footerbox1{
+            top:-5600px;
+            width:375px;
+            height:23.96px;
+        }
+        .footerlogo{
+           width:33px;
+           height:15px;
+           margin-top:5px;
+        }
+        .fbp{
+            width:12px;
+            height:13px;
+            top:5px;
+            left:272px;
+        }
+        .igp{
+            width:20px;
+            height:18px;
+            top:2.5px;
+            left:289px;
+        }
+        .ytp{
+            width:12px;
+            height:13px;
+            top:5px;
+            left:315px;
+        }
+        .ftw{
+            width: 520px;
+            height:1px;
+            font-size:0.1px;
+            top:0.5px;
+            left:338px;
+            display: none;
+        }
+        .reeboklogo{
+            display: none;
+        }
+    }
